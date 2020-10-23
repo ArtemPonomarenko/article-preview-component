@@ -1,4 +1,90 @@
 body {
   font-family: 'Manrope', sans-serif;
   font-size: 13px;
+  background: #ECF2F8;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  min-width: 730px;
+  border-radius: 10px;
+  margin-top: 78px;
+  margin-left: 0px;
+  background: #ffffff;
+  box-shadow: 0px 40px 40px -10px rgba(201,213,225,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 39.7%;
+  height: 280px;
+  border-radius: 10px 0 0 10px;
+  background: url("images/drawers.jpg");
+  background-size: cover;
+}
+.article {
+  width: 365px;
+  height: 216px;
+  padding: 32px 40px 32px 40px;
+}
+.article_title {
+  color: #48556a;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  margin-left: -2px;
+}
+.article_text {
+  color: #6e8098;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.121875px;
+  margin: 11px 0 20px -2px;
+}
+
+/* Author */
+.article_author {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: -2px;
+}
+.author {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 172px;
+}
+.author_name {
+  color: #48556a;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.121875px;
+}
+.author_name .date {
+  color: #9daec2;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.121875px;
+}
+.author_image img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.share_btn {
+  background: #ecf2f8;
+  background-image: url("images/icon-share.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+.share {
+  display: none;
 }
