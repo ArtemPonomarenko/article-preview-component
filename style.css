@@ -136,21 +136,21 @@ body {
 .social {
   margin-right: 17px;
 }
-.social_facebook a {
+.social_facebook {
   background-image: url("images/icon-facebook.svg");
   display: inline-block;
   width: 20px;
   height: 20px;
   background-size: cover;
 }
-.social_twitter a {
+.social_twitter {
   background-image: url("images/icon-twitter.svg");
   display: inline-block;
   width: 20px;
   height: 16.25px;
   background-size: cover;
 }
-.social_pinterest a {
+.social_pinterest {
   background-image: url("images/icon-pinterest.svg");
   display: inline-block;
   width: 20px;
