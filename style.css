@@ -11,7 +11,6 @@ body {
 .container {
   min-width: 730px;
   border-radius: 10px;
-  margin-top: 78px;
   margin-left: 0;
   background: #ffffff;
   box-shadow: 0px 40px 40px -10px rgba(201,213,225,0.5);
@@ -164,7 +163,6 @@ body {
 @media (max-width: 800px) { 
   .container {
     flex-flow: column;
-    margin-top: -35px;
     min-width: 327px;
     max-width: 327px;
     border-radius: 10px;
